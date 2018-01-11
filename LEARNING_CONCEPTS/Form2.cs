@@ -7,6 +7,10 @@
 			InitializeComponent();
 		}
 
+		private void Form2_Load(object sender, System.EventArgs e)
+		{
+		}
+
 		private void Button_MouseEnter(object sender, System.EventArgs e)
 		{
 			System.Windows.Forms.Button
@@ -23,10 +27,6 @@
 
 			currentButton.BackColor =
 				System.Drawing.Color.Silver;
-		}
-
-		private void Form2_Load(object sender, System.EventArgs e)
-		{
 		}
 	}
 }

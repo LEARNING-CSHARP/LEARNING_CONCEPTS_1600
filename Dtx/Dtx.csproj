@@ -40,6 +40,9 @@
     <Compile Include="Windows\Forms\Button.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Windows\Forms\TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

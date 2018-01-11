@@ -1,6 +1,9 @@
 ﻿namespace System.Windows.Forms
 {
-	public class DtxButton
+	public class DtxButton : System.Windows.Forms.Button
 	{
+		public DtxButton() : base()
+		{
+		}
 	}
 }
