@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Dtx.Windows.Forms
+﻿namespace Dtx.Windows.Forms
 {
 	public class Button : System.Windows.Forms.Button
 	{
@@ -8,14 +6,14 @@ namespace Dtx.Windows.Forms
 		{
 		}
 
-		protected override void OnMouseEnter(EventArgs e)
+		protected override void OnMouseEnter(System.EventArgs e)
 		{
 			base.OnMouseEnter(e);
 
 			BackColor = System.Drawing.Color.Khaki;
 		}
 
-		protected override void OnMouseLeave(EventArgs e)
+		protected override void OnMouseLeave(System.EventArgs e)
 		{
 			base.OnMouseLeave(e);
 
