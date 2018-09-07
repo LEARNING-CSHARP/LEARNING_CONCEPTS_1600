@@ -6,6 +6,16 @@
 		{
 		}
 
+		//protected override void OnMouseEnter(System.EventArgs e)
+		//{
+		//	base.OnMouseEnter(e);
+		//}
+
+		//protected override void OnMouseLeave(System.EventArgs e)
+		//{
+		//	base.OnMouseLeave(e);
+		//}
+
 		protected override void OnMouseEnter(System.EventArgs e)
 		{
 			base.OnMouseEnter(e);
