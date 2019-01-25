@@ -4,6 +4,7 @@
 	{
 		public Button() : base()
 		{
+			Cursor = System.Windows.Forms.Cursors.Hand;
 		}
 
 		//protected override void OnMouseEnter(System.EventArgs e)
